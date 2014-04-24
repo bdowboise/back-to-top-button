@@ -12,3 +12,6 @@ $(window).scroll(function() {
         $('#backToTop').addClass('hide');
     }
 });
+$('#backToTop').click(function() {
+   $('html,body').animate({ scrollTop: "0px" },"slow");
+});
